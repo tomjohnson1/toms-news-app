@@ -20,6 +20,9 @@ import { useEffect, useState } from 'react';
  				<li key='Home'>
  					<NavLink to='/'>Home</NavLink>
  				</li>
+         <li key='articles'>
+           <NavLink to='/articles'>Articles</NavLink>
+         </li>
 
  				{topics.map((topic) => {
  					return (
